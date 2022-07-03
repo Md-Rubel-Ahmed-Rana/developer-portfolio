@@ -1,7 +1,7 @@
 
 body{
     font-family: arial;
-    background-color: rgba(128, 128, 128, 0.103);
+    background-color: rgba(128, 128, 128, 0.692);
     margin: 0;
     padding: 0;
 }
@@ -29,6 +29,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 
 .half-width{
@@ -46,7 +47,6 @@ section{
     line-height: 25px;
     font-size: 20px;
     text-align: justify;
-    color: 
 }
 
 .cv-btn{
@@ -65,4 +65,34 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 50px;
+}
+
+.dream-big{
+    background-color: rgba(88, 40, 40, 0.445);
+}
+
+
+.dream-header{
+    margin-bottom: 15px;
+}
+
+.resume-btn{
+    background-color: orange;
+    padding: 10px;
+    width: 220px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 4px 4px blue;
+}
+
+.dream-box{
+    background-color: rgb(59, 206, 206);
+    padding-left: 50px;
+}
+
+.dream-pic{
+    background-color: aliceblue;
 }
