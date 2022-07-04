@@ -1,7 +1,6 @@
 
 body{
     font-family: arial;
-    background-color: rgba(128, 128, 128, 0.692);
     margin: 0;
     padding: 0;
 }
@@ -27,9 +26,10 @@ h1{
     margin-left: 15px;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .half-width{
@@ -61,7 +61,7 @@ section{
 }
 
 .banner-bg{
-    background-image: url("./images/Download.jpg");
+    background-image: url("./images/banner-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -95,4 +95,52 @@ section{
 
 .dream-pic{
     background-color: aliceblue;
+}
+
+
+
+.exp-area{
+    width: 35%;
+    margin: 20px 30px; 
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 5px 5px 55px  rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+.exp-area:first-child{
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+}
+.exp-area:nth-child(2){
+
+    border-left: 10px solid blue;
+    border-bottom: 10px solid blue;
+}
+
+.exp-area h2{
+    font-size: 30px; 
+}
+.exp-area h3{
+    color: orange;  
+}
+
+.exp-area p{
+    line-height: 25px;
+}
+
+.out-area{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+footer p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: larger;
 }
